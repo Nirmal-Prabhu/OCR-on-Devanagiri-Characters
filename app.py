@@ -9,7 +9,7 @@ import tensorflow as tf
 # Initialize the useless part of the base64 encoded image.
 init_Base64 = 21;
 
-model = tf.keras.models.load_model('NN_model.h5')
+model = tf.keras.models.load_model('models/NN_model.h5')
 key_dict = {
         'ञ (kainchi)': 0,
         'ट (tamaatar)': 1,

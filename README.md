@@ -3,6 +3,8 @@
 Just like the MNIST Dataset for English digits, a dataset for "Hindi" or "Devanagiri" characters also exists.
 The aim of this mini-project is to create ML and DL models which can effectively identify the characters.
 
+To run our flask app, navigate to the main directory and type the command 'flask run'.
+
 ## Filing structure
 
 There are five folders and an app.py file in this project.
