@@ -50,7 +50,7 @@ We create a Simple Neural Network and a Convolutional Neural Network (CNN) to se
 Now that our model is ready, we would like to embbed it into a Flask Web-App.
 
 ## Flask-Cnn-Recognition-App
-Flask Hindi Character Recognition Application based on CNN model
+Flask Hindi Character Recognition Application based on CNN model. Our Flask app utilises the saved Convolutional Neural Network Model to classify drawings made by the user. The user writes hindi characters on a whiteboard which is then processed and sent to our model to predict.
 
 
 ### Static folder
@@ -100,6 +100,4 @@ As model.predict() returns a probablity for each class in a single array, we mus
 Finally return the results.html template and pass the previously made prediction as parameter :
 return render_template('results.html', prediction= final_pred)
 
-This project is made by Hitesh Goyal, Nirmal Prabhu and Akhil Shaji.
-
-It aims to deploy a Deep Learning Model using Flask.
+This project is made for the Data Analytics Club VIT by Hitesh Goyal, Nirmal Prabhu and Akhil Shaji.
