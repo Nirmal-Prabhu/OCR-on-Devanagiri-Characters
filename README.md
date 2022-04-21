@@ -50,6 +50,7 @@ Now that our model is ready, we would like to embbed it into a Flask Web-App.
 ## Flask-Cnn-Recognition-App
 Flask Hindi Character Recognition Application based on CNN model
 
+
 ### Static folder
 
 #### styles_draw.css
@@ -61,7 +62,8 @@ drawCanvas() aims to initialize the canvas’ main functions (mouseUp, mouseDown
 addClick() saves the cursor’s position when the user clicks on the canvas.
 redraw() clears the canvas and redraws everything each time the function is called.
 
-### templates
+
+### Templates folder
 
 #### draw.html
 This html page is made to acquire the user input : a drawing that will be classified by our trained model. To do so, we wil design the drawing area using javascript and HTML5.
@@ -79,6 +81,7 @@ We add an extra hidden field to our form which will be used to transfer the imag
 
 #### results.html
 We use results.html to display the prediction computed in app.py. We will again need to use the Jinja syntax to display the prediction.
+
 
 ### app.py
 1) Initializing the app and specifying the template folder. We can do that using this line of code :
